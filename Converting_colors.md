@@ -163,6 +163,7 @@
 
 ## 12. Color Resolution
  - Color를 찍는 시스템에는 두 가지가 있다.
+ 
  (1) Additive Color System(Emissive color)
   - 컬러를 표현할 때 RGB를 섞어서 컬러를 표현한다. RGB를 다 섞으면 white가 나오는데, white의 표현이 가장 어렵다.
   
