@@ -105,12 +105,10 @@
 
 
 ## 8. Brightness Resolution
- - Quantization : Quanatization은 아날로그 데이터를 디지털 데이터의 값으로 바꾸는 것이다.
- 
-		  영상은 픽셀로 이루어져 있는데, 8비트, 10비트, 12비트 등 quantization에 따라 픽셀의 range가 조절 된다.
+ - Quantization : Quanatization은 아날로그 데이터를 디지털 데이터의 값으로 바꾸는 것이다. 영상은 픽셀로 이루어져 있는데, 8비트, 10비트, 12비트 등 quantization에 따라 픽셀의 range가 조절 된다.
   1) Contouring Effect : gray level이 불충분 하기 때문
   2) Dynamic Range : 회색 범위
- - 대부분의 '소비자용 이미지 시스템'은 8비트(0~255) quantization이다. 의료 영상은 10비트 혹은 12비트(0~4095)를 선호한다.
+ - 대부분의 '소비자용 이미지 시스템' 은 8비트(0 ~ 255) quantization이다. 의료 영상은 10비트 혹은 12비트(0 ~ 4095)를 선호한다.
  - 이미지와 observer의 거리가 멀어질 수록 brightness contouring effect는 줄어든다.
 
 
@@ -275,6 +273,7 @@
 
 ## 19. The HIS Color Model(Space)
  - HSI 컬러 space : 색은 RGB가 아니라 아래 효과의 합으로 나타난다는 주장이 있다.
+ 
  (1) 색조(H) : 주 파장 구성 요소
   - equator도 주변의 각도로 표현되고, 0~1로 정규화 한다.
   - R(0.0), G(0.333), B(0.666)
@@ -349,6 +348,7 @@
 
 ## 24. Color Space Conversion : RGB -> YCbCr
  - RGB에서 YCbCr로 처리하는 과정이다.
+ 
  (1) CIE 표준 색상 좌표 : Y, R-Y, B-Y
  
   Y = 0.299R + 0.587G + 0.114B
@@ -368,5 +368,4 @@
   
     Cb, Cr도 16~240까지로 표현되며 비는 칼라가 생긴다.
   - Y - 220 Level(16~235)
-  
-   Color - 225 Level(16~240)
+  - Color - 225 Level(16~240)
